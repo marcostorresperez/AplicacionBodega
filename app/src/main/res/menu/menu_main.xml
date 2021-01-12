@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/configuracion"
+        android:icon="@drawable/conf"
+        android:title="Configuración"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/expanded_menu"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Configuración"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/depositos"
+                android:icon="@drawable/barril"
+                android:title="Dépositos "
+                app:showAsAction="always|withText" />
+
+            <item
+                android:id="@+id/uva"
+                android:icon="@drawable/uva"
+                android:title="Variedades"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/trasiego"
+                android:icon="@drawable/vino"
+                android:title="Trasiegos"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mapa"
+                android:icon="@drawable/localizacion"
+                android:title="Plano"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+
+</menu>

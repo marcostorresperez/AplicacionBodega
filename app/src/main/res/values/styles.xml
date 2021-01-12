@@ -1,0 +1,29 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/fondo</item>
+        <item name="colorPrimaryDark">#FFA2A3A3</item>
+        <item name="colorAccent">#FF6EB1E1</item>
+    </style>
+
+    <style name="titulos" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/texto</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textos" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/texto</item>
+    </style>
+
+    <style name="botones" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/texto</item>
+    </style>
+
+    <style name="dialogs" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@color/fondo</item>
+        <item name="android:textColor">@color/texto</item>
+    </style>
+</resources>
